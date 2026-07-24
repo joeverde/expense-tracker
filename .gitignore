@@ -1,0 +1,53 @@
+## .NET
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+[Ll]ogs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+*.swp
+project.lock.json
+artifacts/
+
+## Node
+node_modules/
+dist/
+dist-ssr/
+*.local
+.npm
+.eslintcache
+
+## Secrets / local config — never commit
+.env
+.env.*
+!.env.example
+appsettings.*.local.json
+**/appsettings.Development.json
+secrets.json
+
+## Databases (recreate via seed/migrations)
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+## OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+*.code-workspace
+
+## Test / coverage
+coverage/
+TestResults/
+*.trx
+*.coverage
+
+## Misc
+*.log
+.publish/
